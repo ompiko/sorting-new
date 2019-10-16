@@ -2,7 +2,7 @@ package sorting;
 
 /**
  *
- * @author ASUS
+ * @author Vicko
  */
 public class Sorting {
 

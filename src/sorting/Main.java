@@ -1,7 +1,7 @@
 package sorting;
 /**
  *
- * @author ASUS
+ * @author Vicko
  */
 public class Main {
     public static void main(String a[]) {
