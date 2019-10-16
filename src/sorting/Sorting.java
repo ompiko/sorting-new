@@ -10,9 +10,10 @@ public class Sorting {
      * @param args the command line arguments
      */
     static void selectionSort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
             int index = i;
-            for (int j = i + 1; j < arr.length; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[index]) {
                     index = j;//searching for lowest index  
                 }
@@ -24,7 +25,6 @@ public class Sorting {
     }
 
     static void display(int arr[]) {
-        System.out.println("After Selection Sort");
         for (int i : arr) {
             System.out.print(i + " ");
         }
