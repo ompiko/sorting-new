@@ -29,16 +29,4 @@ public class Sorting {
             System.out.print(i + " ");
         }
     }
-
-    public static void main(String a[]) {
-        int[] arr1 = {93, 69, 99, 46, 27, 21, 26};
-        System.out.println("Before Selection Sort");
-        for (int i : arr1) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
-        
-        selectionSort(arr1);//sorting array using selection sort  
-        display(arr1);
-    }
 }
